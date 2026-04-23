@@ -1,0 +1,9 @@
+# This file ensures the assets directory is tracked by git
+# Add banner images, diagrams, and screenshots here
+#
+# Suggested files to add:
+# - sample_prediction.png (example segmentation result)
+# - results_visualization.png (RGB + GT + predictions comparison)
+# - confusion_matrix.png (from your notebooks)
+# - training_curves.png (loss and mIoU curves)
+# - class_distribution.png (pie chart or bar chart)

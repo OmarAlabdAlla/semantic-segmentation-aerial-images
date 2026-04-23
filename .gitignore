@@ -1,0 +1,195 @@
+# =============================================================================
+# Semantic Segmentation Project - .gitignore
+# =============================================================================
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv312/
+
+# =============================================================================
+# Jupyter Notebook
+# =============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+*.ipynb_checkpoints
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+*.sublime-workspace
+*.sublime-project
+
+# =============================================================================
+# OS Generated Files
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Deep Learning / ML
+# =============================================================================
+# Model Checkpoints (large files - keep only final models if needed)
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pb
+*.onnx
+checkpoints/
+saved_models/
+weights/
+
+# TensorBoard logs
+logs/
+runs/
+tensorboard/
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# =============================================================================
+# Data Files (typically large - store separately)
+# =============================================================================
+# Raw data
+data/
+dataset/
+datasets/
+*.tif
+*.tiff
+*.geotiff
+Potsdam-GeoTif/
+
+# Processed data
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# CSV outputs (keep small result CSVs, ignore large data CSVs)
+# Uncomment if needed:
+# *.csv
+
+# =============================================================================
+# Output Files
+# =============================================================================
+# Generated images/plots (keep important ones in assets/)
+outputs/
+results/
+predictions/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+
+# =============================================================================
+# Documentation Build
+# =============================================================================
+docs/_build/
+site/
+.mkdocs/
+
+# =============================================================================
+# Testing
+# =============================================================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# =============================================================================
+# Secrets & Credentials (NEVER commit these)
+# =============================================================================
+*.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+config.local.py
+
+# =============================================================================
+# Misc
+# =============================================================================
+*.log
+*.out
+*.err
+.cache/
+*.manifest
+*.spec
+
+# =============================================================================
+# Keep These (override above rules)
+# =============================================================================
+!.gitkeep
+!assets/*.png
+!assets/*.jpg
+!assets/*.gif
+!docs/*.pdf
+!docs/*.md
